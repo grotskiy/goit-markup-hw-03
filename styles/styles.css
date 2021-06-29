@@ -49,6 +49,10 @@ body {
 
 /* header */
 
+.header {
+  width: 1600px;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -202,18 +206,20 @@ body {
   margin-right: 30px;
 }
 
+.second-section {
+  width: 1600px;
+}
+
 .second-section-ul {
-  margin: 0 215px;
-  width: 1170px;
-  height: 101px;
   display: flex;
+  margin: 94px;
 }
 
 .second-section-list {
-
+  margin-right: 30px;
 }
 
-.second-section-head{
+.second-section-head {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -221,8 +227,8 @@ body {
   text-transform: uppercase;
 }
 
-.second-section-desc{
-  margin-right: 30px;
+.second-section-desc {
+  width: 270px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -232,10 +238,11 @@ body {
 /* about */
 
 .third-section {
-
+  width: 1600px;
 }
 
 .third-section-head {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
@@ -244,9 +251,12 @@ body {
 }
 .third-section-ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .third-section-list {
+  margin-right: 30px;
+  margin-bottom: 94px;
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
   mix-blend-mode: normal;
 }
@@ -254,9 +264,12 @@ body {
 /* team */
 
 .fourth-section{
+  width: 1600px;
+  height: 648px;
   background: var(--accent-background-color-sec);
 }
 .fourth-section-head{
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
@@ -264,10 +277,13 @@ body {
   letter-spacing: 0.03em;
 }
 .fourth-section-ul{
-
+  display: flex;
 }
 .fourth-section-list{
-
+  margin-right: 30px;
+  margin-bottom: 94px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .fourth-section-name{
   font-weight: 500;
@@ -287,10 +303,17 @@ body {
 /* footer */
 
 .footer{
+  width: 1600px;
   background: var(--footer-background);
 }
 
+.footer-logo {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
 .logo-footer-link{
+  width: 145px;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -304,12 +327,13 @@ body {
 }
 
 .footer-address{
-
+  
 }
 .footer-ul{
-
+  padding-bottom: 60px;
 }
 .footer-location{
+  padding-bottom: 10px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
@@ -320,6 +344,7 @@ body {
 }
 .footer-mail,
 .footer-tel{
+  padding-bottom: 10px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
