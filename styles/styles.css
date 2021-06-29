@@ -1,0 +1,298 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196F3;
+  --accent-color-first: black;
+  --accent-color-sec: #212121;
+  --accent-color-thr: #757575;
+  --accent-color-four: #FFFFFF;
+  --accent-background-color: #2196F3;
+  --accent-background-color-sec: #F5F4FA;
+  --accent-color-fth: rgba(255, 255, 255, 0.6);
+  --footer-background: #2F303A;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--accent-color-sec);
+}
+
+/* header */
+
+.logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-first);
+}
+
+.logo-blue {
+  color: var(--accent-color);
+}
+
+.menu-link.current {
+  color: var(--accent-color);
+}
+
+.menu-link { 
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color-sec);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.mail-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color-thr);
+}
+
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+
+.tel-link{
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color-thr);
+}
+
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+
+/* section */
+
+.main-section{
+  background: var(--footer-background);
+}
+
+.main-section-title{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-color-four);
+}
+
+.modal-btn{
+  background: var(--accent-background-color);
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  display: block;
+  margin: 0 auto;
+  color: var(--accent-color-four);
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--accent-color-four);
+}
+
+/* differences */
+
+.second-section-list{
+
+}
+
+.second-section-head{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.second-section-desc{
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-thr);
+}
+
+/* about */
+
+.third-section{
+
+}
+
+.third-section-head{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.third-section-ul{
+
+}
+
+.third-section-list{
+  background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+  mix-blend-mode: normal;
+}
+
+/* team */
+
+.fourth-section{
+  background: var(--accent-background-color-sec);
+}
+.fourth-section-head{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.fourth-section-ul{
+
+}
+.fourth-section-list{
+
+}
+.fourth-section-name{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.fourth-section-desc{
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-thr);
+}
+               
+/* footer */
+
+.footer{
+  background: var(--footer-background);
+}
+
+.logo-footer-link{
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-four);
+}
+
+.logo-black{
+  color: var(--accent-color-first);
+}
+
+.footer-address{
+
+}
+.footer-ul{
+
+}
+.footer-location{
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-four);
+}
+.footer-mail,
+.footer-tel{
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-fth);
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-color);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
+/* portfolio */
+
+.portfolio-modal-btn{
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--accent-background-color-sec);
+}
+
+.portfolio-modal-btn:hover,
+.portfolio-modal-btn:focus {
+  background-color: var(--accent-background-color);
+}
+
+.portfolio-modal-btn.current{
+  background-color: var(--accent-background-color);
+}
+
+/* port about */
+
+.port-about-section-ul{
+
+}
+.port-about-section-list{
+  background: url(portfolio1.jpg);
+}
+.port-about-section-name{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.port-about-section-desc{
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-thr);
+}
