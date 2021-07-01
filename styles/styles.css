@@ -213,7 +213,7 @@ body {
 
 .second-section-ul {
   display: flex;
-  margin: 94px;
+  margin: 94px 215px;
 }
 
 .second-section-list {
@@ -364,9 +364,11 @@ body {
 .footer-tel:focus {
   color: var(--accent-color);
 }
+
 /* portfolio */
 
 .portfolio-modal-btn {
+  width: 145px;
   margin-right: 10px;
   font-family: var(--main-font);
   font-weight: 500;
@@ -375,6 +377,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
+  border-color: var(--accent-background-color-sec);
   background-color: var(--accent-background-color-sec);
 }
 
@@ -389,19 +392,29 @@ body {
 
 /* port about */
 
-.port-about-section-ul {
+.port-main-sec {
+  margin-right: -10px;
+  margin-top: -94px;
 }
 
 .port-main-section-ul {
-  justify-content: center;
   display: flex;
+  margin-right: 10px;
   margin-top: 94px;
-  margin-bottom: 50px;
-  
 } 
   
-.port-about-section-list{
+.port-about-section-ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+
+.port-about-section-list {
+  flex-basis: calc((100% - 90px) / 3);
   background: url(portfolio1.jpg);
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .port-about-section-name{
