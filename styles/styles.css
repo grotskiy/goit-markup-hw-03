@@ -163,7 +163,7 @@ body {
   background: var(--footer-background);
 }
 
-.main-section-title{
+.main-section-title {
   padding: 200px 452px;
   padding-bottom: 30px;
   font-weight: 900;
@@ -175,7 +175,7 @@ body {
   color: var(--accent-color-four);
 }
 
-.modal-btn{
+.modal-btn {
   padding: 10px 32px;
   border-radius: 4px;
   background: var(--accent-background-color);
@@ -208,7 +208,7 @@ body {
 }
 
 .second-section {
-  width: 1600px;
+
 }
 
 .second-section-ul {
@@ -239,7 +239,6 @@ body {
 /* about */
 
 .third-section {
-  width: 1600px;
 }
 
 .third-section-head {
@@ -265,11 +264,9 @@ body {
 /* team */
 
 .fourth-section{
-  width: 1600px;
-  height: 648px;
   background: var(--accent-background-color-sec);
 }
-.fourth-section-head{
+.fourth-section-head {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -282,11 +279,12 @@ body {
 }
 .fourth-section-list{
   margin-right: 30px;
-  margin-bottom: 94px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .fourth-section-name{
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.88;
@@ -294,6 +292,7 @@ body {
   letter-spacing: 0.03em;
 }
 .fourth-section-desc{
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
@@ -368,8 +367,11 @@ body {
 /* portfolio */
 
 .portfolio-modal-btn {
+  padding: 6px 22px;
+  justify-content: space-between;
   width: 145px;
   margin-right: 10px;
+  margin-bottom: 50px;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -377,7 +379,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
-  border-color: var(--accent-background-color-sec);
+  border: none;
   background-color: var(--accent-background-color-sec);
 }
 
@@ -392,15 +394,14 @@ body {
 
 /* port about */
 
-.port-main-sec {
-  margin-right: -10px;
-  margin-top: -94px;
+.port-main-section {
+
 }
 
 .port-main-section-ul {
   display: flex;
-  margin-right: 10px;
-  margin-top: 94px;
+  flex-wrap: wrap;
+  justify-content: center;
 } 
   
 .port-about-section-ul {
@@ -410,6 +411,12 @@ body {
   margin-bottom: -30px;
 }
 
+.port-about-list {
+  width: 370px;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box; 
+}
+
 .port-about-section-list {
   flex-basis: calc((100% - 90px) / 3);
   background: url(portfolio1.jpg);
@@ -417,13 +424,18 @@ body {
   margin-bottom: 30px;
 }
 
-.port-about-section-name{
+.port-about-section-name {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.port-about-section-desc{
+.port-about-section-desc {
+  margin-left: 20px;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
