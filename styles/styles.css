@@ -48,13 +48,13 @@ body {
   margin: 0;
   padding: 0;
 }
-/* добавли мар и пад */
 
 .container {
   width: 1200px;
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
+  box-sizing: border-box;
 } 
 
 .section {
@@ -69,7 +69,7 @@ body {
 }
 
 .header-container {
-  margin: 0 auto;
+  margin: 0 auto ;
   display: flex;
   align-items: center;
 }
@@ -167,7 +167,9 @@ body {
 }
 
 .service-title {
-  padding: 200px 452px;
+  width: 696px;
+  margin: 0 auto;
+  padding: 200px 0px;
   padding-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -216,7 +218,8 @@ body {
 
 .detail-ul {
   display: flex;
-  margin: 94px 215px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .detail-list {
@@ -248,25 +251,26 @@ body {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.67;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .about-ul {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-bottom: 94px;
 }
 
 .about-list {
-  margin-right: 30px;
-  margin-bottom: 94px;
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
   mix-blend-mode: normal;
 }
 
 /* team */
 
-.team-section{
+.team-section {
   background: var(--accent-background-color-sec);
 }
 .team-head {
@@ -277,25 +281,32 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-ul{
+.team-ul {
   display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-bottom: 94px;
 }
-.team-list{
-  margin-right: 30px;
+
+.team-list {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-name{
-  margin-top: 30px;
-  margin-bottom: 10px;
+
+.team-list-desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-desc{
-  margin-bottom: 30px;
+
+.team-desc {
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
@@ -305,11 +316,18 @@ body {
               
 /* portfolio */
 
+.port-main-ul {
+
+}
+
+.port-mail-list {
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
 .port-modal-btn {
   padding: 6px 22px;
   justify-content: space-between;
-  margin-right: 10px;
-  margin-bottom: 50px;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -345,34 +363,34 @@ body {
 .port-about-section-ul {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
+  margin-left: -30px;
   margin-bottom: -30px;
 }
 
 .port-about-list {
   border: 1px solid #EEEEEE;
   box-sizing: border-box; 
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .port-about-section-list {
   flex-basis: calc((100% - 90px) / 3);
   background: url(portfolio1.jpg);
-  margin-right: 30px;
+  margin-left: 30px;
   margin-bottom: 30px;
 }
 
 .port-about-name {
-  margin-left: 20px;
-  margin-top: 20px;
   margin-bottom: 5px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
 .port-about-desc {
-  margin-left: 20px;
-  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -381,16 +399,17 @@ body {
 
 /* footer */
 
-.footer{
+.footer {
   background: var(--footer-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.logo-footer-link{
+.logo-footer-link {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -403,14 +422,16 @@ body {
   color: var(--accent-color-first);
 }
 
-.footer-address{
+.footer-address {
   
 }
+
 .footer-ul {
-  padding-bottom: 60px;
+  
 }
-.footer-location{
-  padding-bottom: 10px;
+
+.footer-location {
+  margin-bottom: 10px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
@@ -419,9 +440,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color-four);
 }
+
 .footer-mail,
-.footer-tel{
-  padding-bottom: 10px;
+.footer-tel {
+  margin-bottom: 10px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
