@@ -1,7 +1,7 @@
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --accent-color: #2196F3;
+  --accent-color-logo: #2196F3;
   --accent-color-first: black;
   --accent-color-sec: #212121;
   --accent-color-thr: #757575;
@@ -45,14 +45,10 @@ img {
 body {
   font-family: var(--main-font);
   color: var(--accent-color-sec);
+  margin: 0;
+  padding: 0;
 }
-
-/* header */
-
-.header {
-  width: 1600px;
-  border: 1px solid #ECECEC;
-}
+/* добавли мар и пад */
 
 .container {
   width: 1200px;
@@ -66,8 +62,14 @@ body {
   padding-bottom: 94px;
 }
 
+/* header */
+
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .header-container {
-  margin: 0 215px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
 }
@@ -96,11 +98,11 @@ body {
 }
 
 .logo-blue {
-  color: var(--accent-color);
+  color: var(--accent-color-logo);
 }
 
 .menu-link.current {
-  color: var(--accent-color);
+  color: var(--accent-color-logo);
 }
 
 .menu-item:not(:last-child) {
@@ -118,7 +120,7 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-color);
+  color: var(--accent-color-logo);
 }
 
 .mail-link {
@@ -136,7 +138,7 @@ body {
 
 .mail-link:hover,
 .mail-link:focus {
-  color: var(--accent-color);
+  color: var(--accent-color-logo);
 }
 
 .tel-link {
@@ -152,7 +154,7 @@ body {
 
 .tel-link:hover,
 .tel-link:focus {
-  color: var(--accent-color);
+  color: var(--accent-color-logo);
 }
 
 /* sections */
@@ -160,7 +162,6 @@ body {
 /* service-section */
 
 .service-section {
-  width: 1600px;
   height: 600px;
   background: var(--footer-background);
 }
@@ -231,7 +232,6 @@ body {
 }
 
 .detail-desc {
-  width: 270px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -308,7 +308,6 @@ body {
 .port-modal-btn {
   padding: 6px 22px;
   justify-content: space-between;
-  width: 145px;
   margin-right: 10px;
   margin-bottom: 50px;
   font-family: var(--main-font);
@@ -351,7 +350,6 @@ body {
 }
 
 .port-about-list {
-  width: 370px;
   border: 1px solid #EEEEEE;
   box-sizing: border-box; 
 }
@@ -384,7 +382,6 @@ body {
 /* footer */
 
 .footer{
-  width: 1600px;
   background: var(--footer-background);
 }
 
@@ -394,7 +391,6 @@ body {
 }
 
 .logo-footer-link{
-  width: 145px;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -437,10 +433,10 @@ body {
 
 .footer-mail:hover,
 .footer-mail:focus {
-  color: var(--accent-color);
+  color: var(--accent-color-logo);
 }
 
 .footer-tel:hover,
 .footer-tel:focus {
-  color: var(--accent-color);
+  color: var(--accent-color-logo);
 }
