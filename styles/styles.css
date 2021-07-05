@@ -162,6 +162,7 @@ body {
 /* service-section */
 
 .service-section {
+  padding: 200px 0;
   height: 600px;
   background: var(--footer-background);
 }
@@ -169,8 +170,7 @@ body {
 .service-title {
   width: 696px;
   margin: 0 auto;
-  padding: 200px 0px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -213,13 +213,12 @@ body {
 }
 
 .detail-section {
-
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .detail-ul {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .detail-list {
@@ -244,7 +243,7 @@ body {
 /* about */
 
 .about-section {
-
+  padding-bottom: 94px;
 }
 
 .about-head {
@@ -259,8 +258,6 @@ body {
 .about-ul {
   display: flex;
   justify-content: space-between;
-  padding-right: 30px;
-  padding-bottom: 94px;
 }
 
 .about-list {
@@ -273,6 +270,7 @@ body {
 .team-section {
   background: var(--accent-background-color-sec);
 }
+
 .team-head {
   margin-bottom: 50px;
   font-weight: 700;
@@ -354,6 +352,10 @@ body {
 
 }
 
+.port-main-div {
+  
+}
+
 .port-main-ul {
   display: flex;
   flex-wrap: wrap;
@@ -420,6 +422,10 @@ body {
 
 .logo-black{
   color: var(--accent-color-first);
+}
+
+.footer-address-list {
+
 }
 
 .footer-address {
