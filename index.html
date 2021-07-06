@@ -8,6 +8,9 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
@@ -18,7 +21,7 @@
                 <a class="logo-link link" href="" lang="en"><span class="logo-blue">Web</span>Studio</a>
                 <ul class="menu-list list">
                     <li class="menu-item">
-                        <a class="menu-link link current" href="">Студия</a>
+                        <a class="menu-link link current" href="./index.html">Студия</a>
                     </li>
                     <li class="menu-item">
                         <a class="menu-link link" href="./portfolio.html">Портфолио</a>
@@ -39,48 +42,55 @@
             <button class="service-btn" type="button">Заказать услугу</button>
         </section>
 
-        <section class="detail-section container">
-            <h2 hidden>Преимущества</h2>
-            <ul class="detail-ul container list">
-                <li class="detail-list">
-                    <h3 class="detail-head title-head">Внимание к деталям</h3>
-                    <p class="detail-desc">Идейные соображения, а также начало повседневной работы по формированию
-                        позиции.</p>
-                </li>
-                <li class="detail-list">
-                    <h3 class="detail-head title-head">Пунктуальность</h3>
-                    <p class="detail-desc">Задача организации, в особенности же рамки и место обучения кадров влечет за
-                        собой.</p>
-                </li>
-                <li class="detail-list">
-                    <h3 class="detail-head title-head">Планирование</h3>
-                    <p class="detail-desc">Равным образом консультация с широким активом в значительной степени
-                        обуславливает.</p>
-                </li>
-                <li class="detail-list">
-                    <h3 class="detail-head title-head">Современные технологии</h3>
-                    <p class="detail-desc">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-                    </p>
-                </li>
-            </ul>
+        <section class="detail-section">
+            <div class="detail-section-list container">
+                <h2 hidden>Преимущества</h2>
+                <ul class="detail-ul list">
+                    <li class="detail-list">
+                        <h3 class="detail-head">Внимание к деталям</h3>
+                        <p class="detail-desc">Идейные соображения, а также начало повседневной работы по формированию
+                            позиции.</p>
+                    </li>
+                    <li class="detail-list">
+                        <h3 class="detail-head">Пунктуальность</h3>
+                        <p class="detail-desc">Задача организации, в особенности же рамки и место обучения кадров влечет
+                            за
+                            собой.</p>
+                    </li>
+                    <li class="detail-list">
+                        <h3 class="detail-head">Планирование</h3>
+                        <p class="detail-desc">Равным образом консультация с широким активом в значительной степени
+                            обуславливает.</p>
+                    </li>
+                    <li class="detail-list">
+                        <h3 class="detail-head">Современные технологии</h3>
+                        <p class="detail-desc">Значимость этих проблем настолько очевидна, что реализация плановых
+                            заданий.
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
-        <section class="about-section container">
-            <h2 class="about-head">Чем мы занимаемся</h2>
-            <ul class="about-ul list">
-                <li class="about-list"><img src="./images/banner/write.jpg" alt="Набор текста" width="370" height="294">
-                </li>
-                <li class="about-list"><img src="./images/banner/choose.jpg" alt="Выбор приложения" width="370"
-                        height="294">
-                </li>
-                <li class="about-list"><img src="./images/banner/colors.jpg" alt="Цветовая гамма" width="370"
-                        height="294"></li>
-            </ul>
+        <section class="about-section">
+            <div class="about-section-list container">
+                <h2 class="about-head">Чем мы занимаемся</h2>
+                <ul class="about-ul list">
+                    <li class="about-list"><img src="./images/banner/write.jpg" alt="Набор текста" width="370"
+                            height="294">
+                    </li>
+                    <li class="about-list"><img src="./images/banner/choose.jpg" alt="Выбор приложения" width="370"
+                            height="294">
+                    </li>
+                    <li class="about-list"><img src="./images/banner/colors.jpg" alt="Цветовая гамма" width="370"
+                            height="294"></li>
+                </ul>
+            </div>
         </section>
 
         <section class="team-section section">
-            <h2 class="team-head">Наша команда</h2>
-            <div class="container">
+            <div class="team-seaction-list container">
+                <h2 class="team-head">Наша команда</h2>
                 <ul class="team-ul list">
                     <li class="team-list"><img src="./images/team/product.jpg" alt="Игорь" width="270" height="260">
                         <div class="team-list-desc">
@@ -114,8 +124,6 @@
     <footer class="footer">
         <div class="footer-logo container">
             <a class="logo-footer-link link" href="" lang="en"><span class="logo-blue">Web</span>Studio</a>
-        </div>
-        <div class="footer-address-list container">
             <address class="footer-address">
                 <ul class="footer-ul list">
                     <li class="footer-location">

@@ -54,7 +54,6 @@ body {
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
-  box-sizing: border-box;
 } 
 
 .section {
@@ -208,8 +207,7 @@ body {
 /* detail */
 
 .title-head {
-  margin-bottom: 10px;
-  margin-right: 30px;
+  
 }
 
 .detail-section {
@@ -219,13 +217,15 @@ body {
 
 .detail-ul {
   display: flex;
+  justify-content: space-between;
 }
 
 .detail-list {
-  margin-right: 30px;
+  width: 270px;
 }
 
 .detail-head {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -271,6 +271,10 @@ body {
   background: var(--accent-background-color-sec);
 }
 
+.team-seaction-list {
+  
+}
+
 .team-head {
   margin-bottom: 50px;
   font-weight: 700;
@@ -279,11 +283,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .team-ul {
   display: flex;
   justify-content: space-between;
-  padding-right: 30px;
-  padding-bottom: 94px;
 }
 
 .team-list {
@@ -315,17 +318,16 @@ body {
 /* portfolio */
 
 .port-main-ul {
+  margin-bottom: 50px;
 
 }
 
-.port-mail-list {
-  margin-right: 10px;
-  margin-bottom: 50px;
+.port-main-list:not(:last-child){
+  margin-right: 8px;
 }
 
 .port-modal-btn {
   padding: 6px 22px;
-  justify-content: space-between;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -358,7 +360,6 @@ body {
 
 .port-main-ul {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 } 
   
@@ -371,7 +372,6 @@ body {
 
 .port-about-list {
   border: 1px solid #EEEEEE;
-  box-sizing: border-box; 
   padding-left: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -408,7 +408,7 @@ body {
 }
 
 .footer-logo {
-  margin-bottom: 20px;
+
 }
 
 .logo-footer-link {
@@ -429,7 +429,7 @@ body {
 }
 
 .footer-address {
-  
+  margin-top: 20px;
 }
 
 .footer-ul {
